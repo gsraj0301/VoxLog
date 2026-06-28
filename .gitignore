@@ -1,0 +1,37 @@
+# Vosk model (download manually, ~1.8GB)
+data/
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.env
+.venv/
+venv/
+
+# OS files
+.DS_Store
+*.log
+
+# Build artifacts
+*.so
+
+# Convenience scripts (not part of the project)
+run.sh
+
+# Screenshots (add your own)
+screenshots/
+
+# Personal template (not for public repo)
+README_MAKER.md
